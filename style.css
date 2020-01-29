@@ -1,0 +1,116 @@
+
+.avatar {
+  border-radius: 50%;
+  border: 1px solid black;
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.avatar:hover{
+  transform: rotate(180deg);
+}
+
+.rounded-image{
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.4);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.rounded-image:hover{
+  box-shadow: 0 10px 30px rgba(0,2,0,.4);
+  width: 80px;
+  height: 80px;
+}
+
+
+body {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 12px;
+  background: rgba(0,0,0,.1)
+}
+
+h1 {
+  font-size: 55px;
+  text-align: center;
+  font-family: 'Amatic SC', cursive;
+  margin: 0px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+.h3center {
+  text-align: center;
+
+}
+
+.card {
+  border: 1px solid black;
+  padding: 0px 30px;
+  margin: 20px auto;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  background: #8CC7A1;
+  width: 50%;
+}
+
+
+
+.first {
+  padding: 30px;
+  margin: 10px auto;
+  width: 50%;
+  text-align: center;
+}
+
+ul {
+list-style-type: square;
+padding-inline-start:0px;
+
+}
+
+.fab {
+  color: black;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.underline {
+  text-decoration: underline;
+  text-underline-position: under;
+  text-align: center;
+}
+
+.button {
+  background: rgba(0,0,0,.7);
+  color: white;
+  text-decoration: none;
+  padding: 3px;
+  border: 1px solid black;
+  box-shadow: 0 10px 30px rgba(0,0,0,.2);
+  text-align: center;
+}
+
+.button:hover {
+  background: black;
+  color: pink;
+}
+
+.inline_block li {
+  list-style-type: none;
+  display: inline-block;
+  padding-inline-start:0px;
+  text-align: center;
+}
+
+.centered_rounded_images {
+  text-align: center;
+}
